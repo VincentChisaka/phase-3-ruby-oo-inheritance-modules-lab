@@ -6,6 +6,7 @@ class Artist
 
   @@artists = []
 
+  # Initialize
   def initialize
     @@artists << self
     @songs = []
